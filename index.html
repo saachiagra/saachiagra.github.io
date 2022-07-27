@@ -23,43 +23,63 @@
         // ProgramCodeGoesHere
         var currentScene;
 
-var drawScene1 = function() {
-    currentScene = 1;
-    background(235, 247, 255);
-    fill(0, 85, 255);
-    textSize(39);
-    text("To clean, or not to clean?", 50, 100);
-    text("A crappy game/sim", 50, 150);
-};
+        var drawScene1 = function() {
+            currentScene = 1;
+            background(235, 247, 255);
+            fill(0, 85, 255);
+            textSize(39);
+            text("To clean, or not to clean?", 50, 100);
+            text("A crappy game/sim", 50, 150);
+        };
 
-var drawScene2 = function() {
-    currentScene = 2;
-    background(173, 239, 255);
-    fill(7, 14, 145);
-    textSize(39);
-    text("There's some trash on the ground?", 50, 100);
-    text("Are you going to pick it up?", 50, 150);
-};
+        var drawScene2 = function() {
+            currentScene = 2;
+            background(173, 239, 255);
+            fill(7, 14, 145);
+            textSize(39);
+            text("There's some trash on the ground?", 50, 100);
+            text("Are you going to pick it up?", 50, 150);
+        };
 
-var drawScene3 = function() {
-    currentScene = 3;
-    background(173, 239, 255);
-    fill(7, 14, 145);
-    textSize(39);
-    text("What are you going to do? Will you pick up the trash?", 50, 100);
-};
+        var drawScene3 = function() {
+            currentScene = 3;
+            background(173, 239, 255);
+            fill(7, 14, 145);
+            textSize(39);
+            text("What are you going to do? Will you pick up the trash?", 50, 100);
+        };
 
-mouseClicked = function() {
-    if (currentScene === 1) {
-        drawScene2();
-    } else if (currentScene === 2) {
-        drawScene3();
-    } else if (currentScene === 3) {
+        var drawScene4 = function() {
+            currentScene = 4
+            background(173, 239, 255);
+            // all lines of code inside here will be run repeatedly
+            // position of the car
+            var x = 281;
+            
+            // draw the car body
+            fill(255, 0, 115);
+            rect(x, 200, 100, 20);
+            rect(x + 15, 178, 70, 40);
+            
+            // draw the wheels
+            fill(77, 66, 66);
+            ellipse(x + 25, 221, 24, 24);
+            ellipse(x + 75, 221, 24, 24);
+        }
+
+        mouseClicked = function() {
+            if (currentScene === 1) {
+                drawScene2();
+            } else if (currentScene === 2) {
+                drawScene3();
+            } else if (currentScene === 3) {
+                drawScene4();
+            } else if (currentScene === 4) {
+                drawScene1();
+            }
+        };
+
         drawScene1();
-    }
-};
-
-drawScene1();
 
     }};
 
