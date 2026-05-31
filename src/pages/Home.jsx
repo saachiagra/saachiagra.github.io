@@ -16,12 +16,12 @@ function Home() {
       <main className="max-w-5xl mx-auto px-6 py-16">
         {/* Intro */}
         <section className="mb-24">
-          <h1 className="text-4xl font-bold mb-4">
-            Saachi Agrawal
+          <h1 className="text-2xl font-bold mb-4">
+            Hello and Welcome!
           </h1>
 
           <p className="text-zinc-400 text-lg max-w-2xl leading-relaxed">
-            Hello! I'm a rising junior at the University of Texas at Austin, double-majoring 
+            I'm a rising junior at the University of Texas at Austin, double-majoring 
             in computer science and mathematics. I'm also a member of the Turing Scholars Honors 
             program for CS. Some of my current interests are computational modeling applications and 
             computer simulations of the real world.

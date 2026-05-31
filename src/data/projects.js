@@ -28,7 +28,7 @@ export const projects = [
 
   {
     title: "What's Up With the Weather?",
-    description: "A website with \"playable simulations\" to educate readers on recent climate change research.", 
+    description: "An independently-created website with \"playable simulations\" to educate readers on recent climate change research.", 
     tech: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/saachiagra/simulation",
     live: "https://saachiagra.github.io/simulation/"
