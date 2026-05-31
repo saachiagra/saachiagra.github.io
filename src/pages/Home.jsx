@@ -2,9 +2,11 @@ import Navbar from "../components/Navbar";
 import SectionTitle from "../components/SectionTitle";
 import ExperienceItem from "../components/ExperienceItem";
 import ProjectCard from "../components/ProjectCard";
+import Link from "../components/Link";
 
 import { experiences } from "../data/experiences";
 import { projects } from "../data/projects";
+import { links } from "../data/links"
 
 function Home() {
   return (
@@ -15,14 +17,27 @@ function Home() {
         {/* Intro */}
         <section className="mb-24">
           <h1 className="text-4xl font-bold mb-4">
-            Your Name
+            Saachi Agrawal
           </h1>
 
           <p className="text-zinc-400 text-lg max-w-2xl leading-relaxed">
-            Computer science student interested in
-            systems, software engineering, and building
-            meaningful technical projects.
+            Hello! I'm a rising junior at the University of Texas at Austin, double-majoring 
+            in computer science and mathematics. I'm also a member of the Turing Scholars Honors 
+            program for CS. Some of my current interests are computational modeling applications and 
+            computer simulations of the real world.
           </p>
+          <br></br>
+          <p className="text-zinc-400 text-lg max-w-2xl leading-relaxed">
+            Email: saachiagra at utexas dot edu
+          </p>
+          <div>
+            {links.map((l, index) => (
+              <Link
+                key={index}
+                {...l}
+              />
+            ))}
+          </div>
         </section>
 
         {/* Experience */}

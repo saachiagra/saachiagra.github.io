@@ -3,6 +3,7 @@ function ProjectCard({
   description,
   tech,
   github,
+  live,
 }) {
   return (
     <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-blue-400 transition-colors">
@@ -25,14 +26,23 @@ function ProjectCard({
         ))}
       </div>
 
-      <a
+      <div className="flex gap-5">
+      {github && <a
         href={github}
         target="_blank"
         rel="noreferrer"
         className="text-blue-400 hover:underline"
       >
         GitHub →
-      </a>
+      </a>}
+      {live && <a
+        href={live}
+        target="_blank"
+        rel="noreferrer"
+        className="text-blue-400 hover:underline"
+      >Site Link →
+      </a>}
+      </div>
     </div>
   );
 }
