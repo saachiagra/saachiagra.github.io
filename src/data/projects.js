@@ -22,7 +22,7 @@ export const projects = [
 
   {
     title: "Web Crawler & Search Engine",
-    description: "A web crawler that can index information from webs, uses a query parser and search system to retrieve relevant data.",
+    description: "A web crawler that can index information from webs and uses a query parser & search system to retrieve relevant data.",
     tech: ["Java"],
   },
 
@@ -32,5 +32,18 @@ export const projects = [
     tech: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/saachiagra/simulation",
     live: "https://saachiagra.github.io/simulation/"
-  }
+  },
+
+  {
+    title: "DNA Replication Origin Finder",
+    description: "Algorithms used to identify possible origins of DNA replication in bacterial chromosomes.",
+    tech: ["Python"],
+    github: "https://github.com/saachiagra/biotech"
+  },
+
+  {
+    title: "Tetris",
+    description: "A game complete with piece movement & rotation, line clearing, and scoring mechanics.",
+    tech: ["Java"]
+  },
 ];

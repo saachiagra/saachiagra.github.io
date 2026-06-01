@@ -5,8 +5,8 @@ function ExperienceItem({
   description,
 }) {
   return (
-    <div className="relative pl-8 pb-12 border-l border-zinc-700">
-      <div className="absolute w-3 h-3 bg-blue-400 rounded-full -left-[7px] top-1" />
+    <div className="group relative pl-8 pb-12 border-l border-zinc-700">
+      <div className="absolute w-5 h-5 bg-blue-400 rounded-full -left-[10.5px] top-1 group-hover:bg-blue-800" />
 
       <p className="text-sm text-zinc-400 mb-1">{date}</p>
 

@@ -6,7 +6,7 @@ import Link from "../components/Link";
 
 import { experiences } from "../data/experiences";
 import { projects } from "../data/projects";
-import { links } from "../data/links"
+import { links } from "../data/links";
 
 function Home() {
   return (
@@ -15,19 +15,19 @@ function Home() {
 
       <main className="max-w-5xl mx-auto px-6 py-16">
         {/* Intro */}
-        <section className="mb-24">
+        <section className="mb-24 scroll-mt-32" id="home">
           <h1 className="text-2xl font-bold mb-4">
             Hello and Welcome!
           </h1>
 
-          <p className="text-zinc-400 text-lg max-w-2xl leading-relaxed">
+          <p className="text-lg max-w-3xl leading-relaxed">
             I'm a rising junior at the University of Texas at Austin, double-majoring 
             in computer science and mathematics. I'm also a member of the Turing Scholars Honors 
-            program for CS. Some of my current interests are computational modeling applications and 
-            computer simulations of the real world.
+            program for CS. I'm currently interested in interdisciplinary applications of 
+            computational modeling.
           </p>
           <br></br>
-          <p className="text-zinc-400 text-lg max-w-2xl leading-relaxed">
+          <p className="text-lg leading-relaxed">
             Email: saachiagra at utexas dot edu
           </p>
           <div>
@@ -41,7 +41,7 @@ function Home() {
         </section>
 
         {/* Experience */}
-        <section className="mb-24">
+        <section className="mb-24 scroll-mt-24" id="experience">
           <SectionTitle>
             Experience
           </SectionTitle>
@@ -57,7 +57,7 @@ function Home() {
         </section>
 
         {/* Projects */}
-        <section>
+        <section id="projects" className="scroll-mt-24">
           <SectionTitle>
             Projects
           </SectionTitle>

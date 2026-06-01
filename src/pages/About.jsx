@@ -6,7 +6,7 @@ function About() {
     <div className="min-h-screen">
       <Navbar />
 
-      <main className="max-w-4xl mx-auto px-6 py-16">
+      <main className="max-w-5xl mx-auto px-6 py-16">
         <SectionTitle>
           About Me
         </SectionTitle>
@@ -18,11 +18,12 @@ function About() {
               Current Focus
             </h3>
 
-            <p>
+            <p className="max-w-3xl">
               Right now, I'm exploring systems-related research and software engineering roles. 
               For the near future, I'm interested in research related to computational modeling 
-              + the human brain, cognitive science, and using video games to diagnose & treat medical conditions. 
-              Please reach out if you have any opportunities!
+              + the human brain, cognitive science, human-computer interaction, and using video 
+              games to diagnose & treat medical conditions. Please reach out if you have any 
+              opportunities!
             </p>
           </section>
           
@@ -32,8 +33,7 @@ function About() {
             </h3>
 
             <p>
-              I'm interested in interdisciplinary applications of computer science. These are some 
-              other areas I'm considering:
+              I'm interested in applications of computer science to these fields:
               <ul className="list-disc list-inside">
                 <li>Mathematics - I really like linear algebra and number theory</li>
                 <li>Psychology - recently took a clinical psychology course and enjoyed it!</li>

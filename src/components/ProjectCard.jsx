@@ -31,7 +31,7 @@ function ProjectCard({
         href={github}
         target="_blank"
         rel="noreferrer"
-        className="text-blue-400 hover:underline"
+        className="text-blue-400 hover:underline hover:text-blue-600"
       >
         GitHub →
       </a>}
@@ -39,7 +39,7 @@ function ProjectCard({
         href={live}
         target="_blank"
         rel="noreferrer"
-        className="text-blue-400 hover:underline"
+        className="text-blue-400 hover:underline hover:text-blue-600"
       >Site Link →
       </a>}
       </div>
