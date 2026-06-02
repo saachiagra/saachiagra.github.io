@@ -31,9 +31,13 @@ function About() {
             <h3 className="text-xl font-semibold mb-3">
               Academic Interests
             </h3>
+            <p className="block mb-3">
+              Many different subfields of CS fascinate me, such as operating systems, cryptography,
+              high-performance computing, computational modeling, and video game development.
+            </p>
 
             <p>
-              I'm interested in applications of computer science to these fields:
+              I'm also interested in applications of computer science to these fields:
               <ul className="list-disc list-inside">
                 <li>Mathematics - I really like linear algebra and number theory</li>
                 <li>Psychology - recently took a clinical psychology course and enjoyed it!</li>

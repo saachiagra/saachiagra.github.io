@@ -23,8 +23,8 @@ function Home() {
           <p className="text-lg max-w-3xl leading-relaxed">
             I'm a rising junior at the University of Texas at Austin, double-majoring 
             in computer science and mathematics. I'm also a member of the Turing Scholars Honors 
-            program for CS. I'm currently interested in interdisciplinary applications of 
-            computational modeling.
+            program for CS. I'm currently interested in operating systems, software engineering, and 
+            interdisciplinary applications of computational modeling.
           </p>
           <br></br>
           <p className="text-lg leading-relaxed">
